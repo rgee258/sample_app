@@ -12,6 +12,8 @@ gem 'bootstrap-sass', '3.3.7'
 gem 'bcrypt', '3.1.12'
 gem 'faker',  '1.7.3'
 gem 'i18n', '0.9'
+gem 'carrierwave', '1.2.2'
+gem 'mini_magick', '4.7.0'
 gem 'will_paginate', '3.1.6'
 gem 'bootstrap-will_paginate', '1.0.0'
 
@@ -37,6 +39,7 @@ end
 
 group :production do
   gem 'pg', '0.18.4'
+  gem 'fog', '1.42'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
